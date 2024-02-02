@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#conteiner{
+    width: 100%; /*--> Monitores mediano */
+    background-color: aqua;
+}
+
+#body{
+    display: block;
+    width: 90%;
+    margin: 0px auto;
+    background-color: brown;
+}
+
+header{
+    background-color: aquamarine;
+}
+
+#header{
+    width: 100%;
+    height: 50px;
+}
+
+
+main{
+    background-color: steelblue;
+}
+
+#main{
+    width: 100%;
+    height: 600px;
+}
+
+
+
+/**/
+.nav__list{
+	float: right;
+	list-style: none;
+    height: 50px;
+    margin: 0;
+	padding: 0;
+	position: relative;
+    background-color: #2980B9;   
+}
+
+.nav__list a{
+	display:block;
+	color:#282828;
+	text-decoration:none;
+    font-size: 17px;
+    font-weight: bolder;
+	letter-spacing: 2px;
+	line-height: 50px;
+	padding:0 15px;
+}
+
+.nav__list a:hover{
+	color:#fff;
+}
+
+.nav__list li{
+	position: relative;
+	float:  left;
+	margin: 0;
+	padding: 0;
+}
+
+.nav__list li:hover{
+	background-color: #3498DB;
+}
+
+.nav__list ul{
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background-color: #2980B9;
+	padding: 0;
+	list-style: none;
+}
+
+.nav__list ul li{
+	float: none;
+	width: auto;
+}
+
+.nav__list ul a{
+	line-height: 120%;
+	padding: 10px 15px;
+}
+
+.nav__list li:hover > ul{
+	display: block;
+}
+/**/
+
+
+footer{
+    background-color: wheat;
+}
+
+#footer{
+    width: 100%;
+    height: 60px;
+}
